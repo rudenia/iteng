@@ -2,8 +2,8 @@
 package-lock.json
 node_modules
 .idea
-.#src
-.libary
-.source
+#src
+libary
+source
 dist
 /*.exe.stackdump
