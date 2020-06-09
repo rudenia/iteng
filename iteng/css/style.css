@@ -24,6 +24,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "OpenSans";
+  font-display: swap;
+  src: url("../fonts/OpenSans-Light.woff") format("woff"), url("../fonts/OpenSans-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
 /*--------Цвета-------- */
 
 /*--------Общие-------- */
@@ -1061,6 +1069,87 @@ label {
   height: 60px;
 }
 
+.contact {
+  padding: 85px 0 70px;
+  background-color: #f8fafb;
+}
+
+.contact__title {
+  color: #355d6e;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.contact-info__block {
+  color: #404040;
+}
+
+.contact-info__block:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.contact-info__title {
+  font-family: 'Geometria', sans-serif, serif;
+  font-weight: 400;
+  color: #404040;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.contact-info__description {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.contact-info__link {
+  font-size: 24px;
+  font-weight: 400;
+  color: #5088a0;
+  margin-bottom: 15px;
+}
+
+.contact-info__link-mail {
+  margin-bottom: 0;
+}
+
+.contact-info__link:hover {
+  color: #5088a0;
+}
+
+.contact-form {
+  background-color: #fff;
+  padding: 60px 57px;
+}
+
+.contact-form__title {
+  font-family: 'Geometria', sans-serif, serif;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.contact-form__description {
+  font-size: 24px;
+  font-weight: 300;
+  color: #404040;
+  margin-top: 15px;
+  margin-bottom: 45px;
+}
+
+.contact-form__field {
+  margin: 0 0 30px 0;
+  border: 1px solid #e8e8e8;
+  max-width: 420px;
+  width: 100%;
+}
+
+.contact-form__btn {
+  max-width: 420px;
+  width: 100%;
+}
+
 /*--------Footer-------- */
 
 .footer {
@@ -1123,7 +1212,7 @@ label {
 .footer-menu {
   margin-left: 30px;
   list-style: none;
-  height: 135px;
+  height: 145px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
