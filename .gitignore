@@ -2,8 +2,9 @@
 package-lock.json
 node_modules
 .idea
-#src
+*#src
 libary
 source
 dist
+gitignore.txt
 /*.exe.stackdump
