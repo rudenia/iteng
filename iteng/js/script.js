@@ -1,4 +1,4 @@
-//E-mail Slider
+//Slider
 $(document).ready(function(){
     $('.offer-slide').slick({
         arrows: false,
@@ -8,7 +8,16 @@ $(document).ready(function(){
         dots: true,
         dotsClass: "offer-slide__dots",
     });
+    $('.aboutArticles-slide').slick({
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        arrows: true,
+        prevArrow: '<button type="button" class="slick-prev"></button>',
+        nextArrow: '<button type="button" class="slick-next"></button>'
+    });
 });
+
+
 
 //Select Form
 let select = function () {

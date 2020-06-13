@@ -6,5 +6,6 @@ node_modules
 libary
 source
 dist
+design
 gitignore.txt
 /*.exe.stackdump
